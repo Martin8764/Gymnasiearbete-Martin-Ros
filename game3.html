@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scuffed Snake</title>
+    <link rel="stylesheet" href="game3 .css">
+</head>
+
+<body> 
+    <div id="theHead">Welcome to a snake game prototype!</div>
+    <div id="newGame" onclick="runGame()" onmouseover="this.style.backgroundColor = 'goldenrod'" onmouseout="this.style.backgroundColor = 'gold'">Resume</div>
+    <div id="creditBtn" onmouseover="this.style.backgroundColor = 'goldenrod'" onmouseout="this.style.backgroundColor = 'gold'" onclick="showCredits()">Credits</div>
+    <div id="credits">Snake game prototype: Made by Martin Ros</div>
+    <div id="backBtn" onmouseover="this.style.backgroundColor = 'goldenrod'" onmouseout="this.style.backgroundColor = 'gold'" onclick="window.location.href='index.html';">Home</div>
+    <div id="main">
+
+    <div id="score">0</div>
+    <canvas id="snakeboard" width="400" height="550"></canvas>
+    <script src="game3 .js"></script>
+</body>
+
+
+
+</html> 
